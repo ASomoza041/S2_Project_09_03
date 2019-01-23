@@ -29,7 +29,7 @@ legend {
 
 /* DIV Styles */
 /* The div styles affect the div elements. The styles give the elements styles to affect spacing.  */
-div.slider {
+div.rangeslider {
     float: left;
     width: 60%;
     margin: 2px 0px 2px 0px;
@@ -38,7 +38,7 @@ div.slider {
 
 
 /* Control Styles */
-/* The control styles affect the fieldset/legend elements. The styles give the elements styles like colors and affecting spacing.  */
+/* The control styles affect the fieldset/legend elements. The styles give the elements color and spacing styles.  */
 
 label {
     clear: left;
@@ -62,6 +62,8 @@ select {
     float: left;
     width: 120px;
 }
+
+
 
 input[type="color"] {
     display: block;

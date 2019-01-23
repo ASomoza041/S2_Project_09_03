@@ -71,7 +71,7 @@
 
     <section>
         <h1>CSS Demo</h1>
-        <!-- The code below is the actual form used for this project. It uses a variety of widgets to let the user interact with the form and labels that link up to those widgets. The widgets let the user choose what their font looks like.  -->
+        <!-- The code below is the actual form used for this project. It uses a variety of widgets to let the user interact with the form and labels that link up to those widgets. The widgets let the user choose what their font looks like. The names, fors, and id's must be a very specific word in order to line up with the already written javascript.  -->
         <form action="">
             <textarea name="sampleText" id="sampleBox" cols="30" rows="10" placeholder="Enter sample text and press the Tab key."
                 autofocus tabindex="1" wrap="hard"></textarea>
@@ -80,7 +80,7 @@
             </p>
 
             <fieldset>
-
+                <!-- The fonts use option groups in order to seperate options into different groups. This is simply for user convenience as it sepreates generic fonts from specific fonts -->
                 <legend>Fonts</legend>
                 <label for="fontfamily">Font Family</label>
                 <select name="fontfamily" id="fontfamily">
@@ -151,29 +151,29 @@
             <fieldset>
                 <legend>Sizes</legend>
 
-                <label for="slider">Font Size (px)</label>
+                <label for="fontsize">Font Size (px)</label>
                 <div class="slider">
                     8<input name="fontsize" id="fontsize" type="range" step="1" min="8" max="40" value="14">40
                 </div>
 
-                <label for="slider">Letter Spacing (px)</label>
+                <label for="letterspacing">Letter Spacing (px)</label>
                 <div class="slider">
-                    0<input name="letterspace" id="letterspace" type="range" step="1" min="0" max="10" value="0">10
+                    0<input name="letterspacing" id="rangeslider" type="range" step="1" min="0" max="10" value="0">10
                 </div>
 
-                <label for="slider">Word Spacing (px)</label>
+                <label for="wordspacing">Word Spacing (px)</label>
                 <div class="slider">
-                    0<input name="wordspace" id="wordspace" type="range" step="1" min="0" max="10" value="0">10
+                    0<input name="wordspacing" id="rangeslider" type="range" step="1" min="0" max="10" value="0">10
                 </div>
 
-                <label for="slider">Line Height (em)</label>
+                <label for="lineheight">Line Height (em)</label>
                 <div class="slider">
-                    0<input name="lineheight" id="lineheight" type="range" step="0.2" min="0" max="4" value="1">4
+                    0<input name="lineheight" id="rangeslider" type="range" step="0.2" min="0" max="4" value="1">4
                 </div>
 
-                <label for="slider">Text Indent (px)</label>
+                <label for="textindent">Text Indent (px)</label>
                 <div class="slider">
-                    0<input name="textindent" id="textindent" type="range" step="1" min="0" max="10" value="0">10
+                    0<input name="textindent" id="rangeslider" type="range" step="1" min="0" max="10" value="0">10
                 </div>
             </fieldset>
         </form>
